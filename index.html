@@ -1,26 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>The Walking Dead</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
-<body>
-    <div class="contenido">
-        <p>Ingrese primer número:</p>
-        <input id="txtNum1" type="number" value="0">
-        <p>Ingrese segundo número:</p>
-        <input id="txtNum2" type="number" value="0">
-        <br>
-        <div>
-            <input id="btnSumar" type="button" value="Sumar">
-            <input id="btnRestar" type="button" value="Restar">
-            <input id="btnMultiplicar" type="button" value="Multiplicar">
-            <input id="btnDividir" type="button" value="Dividir">
-        </div> 
-        <p id="txtResultado">0</p>
-    </div>
-    <script src="./scripts/index.js"></script>
+
+<body class="inicio">
+    <header>
+        <nav class="menu">
+            <a class="activo" href="#">Inicio</a>
+            <a href="./gallery.html">Galería de fotos</a>
+            <a href="./cast.html">Actores</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <h1>The Walking Dead</h1>
+            <br>
+            <div class="contenedor_imagen">
+                <img class="imagen_portada" src="./assets/TheWalkingDeadPoster.jpg" alt="poster de The Walking Dead">
+            </div>
+            <br>
+            <div class="contenedor-lista">
+                <h2>Descripción</h2>
+                <hr>
+                <p>La serie sigue las aventuras de Rick Grimes, un oficial de policía quien tras ser herido en servicio
+                    y pasar varias semanas en coma despierta en un mundo apocalíptico plagado de zombies donde la
+                    población ha dejado de existir. Luego de deducir que su familia podría continuar con vida, Rick
+                    emprende un viaje para tratar de encontrarlos y es así que llega hasta un pequeño grupo de
+                    sobrevivientes en las afueras de Atlanta donde por coincidencias del destino logra reunirse con
+                    aquellos a quienes estaba buscando. Rápidamente Rick asume el liderazgo del grupo y mientras ayuda a
+                    todos para tratar de sobrevivir a los caminantes, pronto se da cuenta de que muchas veces los vivos
+                    pueden ser mas peligrosos que los muertos.</p>
+                <h2>Fecha de Estreno</h2>
+                <hr>
+                <p>31 de octubre de 2010</p>
+                <h2>Género</h2>
+                <hr>
+                <ul style="margin-left:20px;">
+                    <li>Horror</li>
+                    <li>Drama</li>
+                    <li>Cienca Ficción</li>
+                    <li>Acción/Aventura</li>
+                    <li>Sobrenatural</li>
+                </ul>
+                <h2>Duración</h2>
+                <hr>
+                <p>Aprox. 45 min</p>
+                <h2>Nº de Episodios</h2>
+                <hr>
+                <p>177</p>
+                <h2>Nº de Temporadas</h2>
+                <hr>
+                <p>11</p>
+            </div>
+        </div>
+
+    </main>
 </body>
+
 </html>
