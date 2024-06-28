@@ -81,7 +81,7 @@ h1 {
 }
 
 .galeria {
-    margin: 16px;
+    margin: 13px;
     border: 6px solid green;
     float: left;
 }
@@ -118,8 +118,9 @@ th {
 }
 
 .contenedor-galeria {
+    width: 90%;
     margin: auto;
-    width: 80%;
+    display: block;
 }
 
 .centrado {
